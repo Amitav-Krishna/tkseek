@@ -6,11 +6,11 @@ A distributed computing platform that runs DeepSeek machine learning models acro
 ## Tasks
 
 ### MVP
-- [ ] Set up SLURM configuration across all 30 machines 
-- [ ] Create SingularityCE container with DeepSeek dependencies
+- [ ] Set up Kubernetes configuration across all 3 machines 
+- [ ] Create Docker container with DeepSeek dependencies
 - [ ] Implement PyTorch distributed data parallel for model distribution
 - [ ] Configure network resilience for home internet connections
-- [ ] Test minimal deployment with 3-5 machines
+- [ ] Test minimal deployment with 2 machines
 - [ ] Create monitoring dashboard with Prometheus/Grafana
 - [ ] Implement checkpoint-based synchronization
 - [ ] API endpoint for TKSites
@@ -25,6 +25,5 @@ A distributed computing platform that runs DeepSeek machine learning models acro
 - [ ] Add support for GPU acceleration where available
 - [ ] Implement fine-tuning capabilities
 - [ ] Create automated deployment scripts
-
 ## PROJECT DEFINITION
 Distributed computing system that coordinates diverse computers across the TKS network to run DeepSeek.
